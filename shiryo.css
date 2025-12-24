@@ -1,0 +1,91 @@
+#shiryo .borda0 {
+  margin: 20px auto;
+  padding: 4px;
+    background: #002828;
+background: linear-gradient(180deg,rgba(40, 160, 140, 1) 0%, rgba(0, 0, 0, 1) 70%);
+border-color: white;
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  width: 780px;
+color: white;
+  position: relative;
+  transition: 2s ease;
+z-index: 1;
+}
+
+#shiryo .borda1 {
+  margin: -16px -21px;
+  padding: 4px;
+  background: #002828;
+background: linear-gradient(180deg,rgba(20, 140, 120, 1) 0%, rgba(0, 0, 0, 1) 70%);
+border-color: white;
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  width: 810px;
+  position: relative;
+  z-index: 1;
+   transition: 2s ease;
+color: white;
+z-index: 2;
+}
+
+#shiryo:has(.stats>details[open]) .borda1 {
+  margin: 15px -21px -10px;
+}
+
+#shiryo .borda {
+  margin: -16px -17px;
+  padding: 20px;
+  transition: 2s ease-in-out;
+background: #002828;
+background: linear-gradient(180deg,rgba(0, 120, 100, 1) 0%, rgba(0, 0, 0, 1) 40%);
+border-color: white;
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  width: 800px;
+  position: relative;
+  z-index: 3;
+}
+
+#shiryo:has(.borda1>details[open]) .borda {
+  margin: 15px -17px -10px;
+}
+
+#shiryo .texto {
+  color: rgb(255, 255, 255);
+  margin: 50px auto 20px;
+  padding: 20px;
+  font-size: 16px;
+  font-family: "Dosis", sans-serif;
+  text-align: justify;
+  border: white;
+  border-style: solid;
+  border-width: 0px 1px 0px 1px;
+}
+
+#shiryo .texto::first-letter {
+  font-family: "Cinzel", seriff;
+  font-size: 46px;
+  line-height: 1px;
+}
+
+#shiryo summary {
+  list-style-type: none;
+  width: 0;
+  margin: 0 90%;
+font-family:"Abel";
+font-size: 20px;
+  letter-spacing: 2px;
+}
+
+#shiryo details {
+ width: 780px;
+ margin: 0 auto;
+ font-family: "Abel", sans-serif;  
+  letter-spacing: 2px;
+}
+
+#shiryo .stats {
+  text-align: center;
+  font-family: 'Abel';
+}
