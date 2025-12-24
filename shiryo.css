@@ -6,7 +6,7 @@ background: linear-gradient(180deg,rgba(40, 160, 140, 1) 0%, rgba(0, 0, 0, 1) 70
 border-color: black;
   border-style: solid;
   border-width: 1px 1px 1px 1px;
-  width: 780px;
+  width: 680px;
 color: white;
   position: relative;
   transition: 2s ease;
@@ -21,7 +21,7 @@ background: linear-gradient(180deg,rgba(20, 140, 120, 1) 0%, rgba(0, 0, 0, 1) 70
 border-color: black;
   border-style: solid;
   border-width: 1px 1px 1px 1px;
-  width: 810px;
+  width: 710px;
   position: relative;
   z-index: 1;
    transition: 2s ease;
@@ -42,7 +42,7 @@ background: linear-gradient(180deg,rgba(0, 120, 100, 1) 0%, rgba(0, 0, 0, 1) 40%
 border-color: black;
   border-style: solid;
   border-width: 1px 1px 1px 1px;
-  width: 800px;
+  width: 700px;
   position: relative;
   z-index: 3;
 }
@@ -72,14 +72,14 @@ border-color: black;
 #shiryo summary {
   list-style-type: none;
   width: 0;
-  margin: 0 90%;
+  margin: 0 1%;
 font-family:"Abel";
 font-size: 20px;
   letter-spacing: 2px;
 }
 
 #shiryo details {
- width: 780px;
+ width: auto;
  margin: 0 auto;
  font-family: "Abel", sans-serif;  
   letter-spacing: 2px;
