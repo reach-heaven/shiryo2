@@ -34,7 +34,7 @@ z-index: 2;
 }
 
 #shiryo .borda {
-  margin: -27px -17px;
+  margin: -39px -17px;
   padding: 20px;
   transition: 2s ease-in-out;
 background: #002828;
@@ -89,3 +89,4 @@ font-size: 20px;
   text-align: center;
   font-family: 'Abel';
 }
+
